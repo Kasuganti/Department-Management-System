@@ -1,0 +1,18 @@
+<html>
+<body>
+<center>
+<h1>DEPARTMENT OF INFORMATION TECHNOLOGY</h2><hr>
+<h2> Department Faculty Information</h2>
+<table border=6>
+<tr><td>Faculty ID</td><td>Faculty NAME</td><td>PHONE NUMBER</td><td>MAIL ID</td><td>SUBJECT1</td><td>SUBJECT2</td></tr>
+
+<c:for Each items="$(result)" var="f">
+<tr><td>$(f.id)</td><td>$(f.name)</td><td>$(f.phnumber)</td><td>$(f.mailid)</td><td>$(f.subject1)</td><td>$(f.subject2)</td></tr>
+</c:for Each>
+</table>
+<tr><td><a href="registerfaculty.html">Register Faculty</a>
+
+
+</center>
+</body>
+</html>

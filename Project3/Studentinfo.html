@@ -1,0 +1,16 @@
+<html>
+<body>
+<center>
+<h1>DEPARTMENT OF INFORMATION TECHNOLOGY</h2><hr>
+<h2> Department Student Information</h2>
+<table border=6>
+<tr><td>Student Rollno.</td><td>Student NAME</td><td>PHONE NUMBER</td><td>MAIL ID</td><td>Year of Study</td></tr>
+
+<c:for Each items="$(result)" var="s">
+<tr><td>$(f.rollno)</td><td>$(s.name)</td><td>$(s.phnumber)</td><td>$(s.mailid)</td><td>$(s.yearofstudy)</td></tr>
+</c:for Each>
+</table>
+<a href="registerstudent.html">Register Student</a> 
+</center>
+</body>
+</html>

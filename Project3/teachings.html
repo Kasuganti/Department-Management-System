@@ -1,0 +1,18 @@
+<html>
+<body>
+<center>
+<h1>DEPARTMENT OF INFORMATION TECHNOLOGY</h2><hr>
+<h2> Department Teachings Information</h2>
+<table border=6>
+<tr><td>Subject</td><td>Faculty NAME</td><td>Year</td></tr>
+
+<c:for Each items="$(result)" var="t">
+<tr><td>$(t.subject)</td><td>$(t.fname)</td><td>$(t.year)</td></tr>
+</c:for Each>
+</table>
+
+
+
+</center>
+</body>
+</html>
